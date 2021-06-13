@@ -1,0 +1,60 @@
+.game_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.game_icons {
+  padding: 40px;
+}
+
+.icon {
+  font-size: 40px;
+  padding: 20px;
+}
+
+.icon:first-child {
+  color: #264653;
+}
+
+.icon:nth-child(2) {
+  color: #2a9d8f;
+}
+
+.icon:last-child {
+  color: #e76f51;
+}
+
+.buttons_box {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+button {
+  padding: 20px 10px;
+  border-radius: 20px;
+  min-width: 100px;
+  background-color: #f4a261;
+  margin: 10px;
+  border: none;
+}
+
+button:hover {
+  background-color: #e9c46a;
+}
+
+.restart_button {
+  background-color: #e9c46a;
+  margin-top: 40px;
+}
+
+.restart_button:hover {
+  background-color: #2a9d8f;
+}
+
+span {
+  color: #e76f51;
+}
